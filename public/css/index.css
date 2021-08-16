@@ -83,3 +83,31 @@
     width: 100%;
 }
 
+@media (min-width: 768px) {
+    .home .productos {
+        width: 65%;
+    }
+
+    .home aside {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1140px) {
+    .home main {
+        justify-content: space-between;
+    }
+
+    .home .productos {
+        width: 800px;
+        justify-content: space-around;
+    }
+
+    .home .productos article {
+        width: 370px;
+    }
+
+    .home aside {
+        width: 320px;
+    }
+}
