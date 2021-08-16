@@ -58,3 +58,28 @@
     margin-top: 30px;
 }
 
+/*  aside - turoriales  */
+
+.home aside .tuto article {
+    background-color: #fff;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #a6a6a6;
+    border-bottom: none;
+}
+
+.home aside .tuto article:last-child {
+    border-bottom: 1px solid #a6a6a6;
+}
+
+.home aside .tuto article p {
+    margin-left: 10px;
+}
+
+/* aside - publicidad */
+
+.home aside .ads img {
+    width: 100%;
+}
+
