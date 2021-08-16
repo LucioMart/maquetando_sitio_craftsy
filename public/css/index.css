@@ -1,0 +1,36 @@
+.home main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.home .productos {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.home .productos article {
+    width: 90%;
+    margin: 20px 0;
+}
+
+.home .productos article img {
+    width: 100%;
+}
+
+.home .productos article h4 {
+    margin: 10px 0;
+}
+
+.home .productos article a {
+    background-color: var(--color-rojo);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px;
+    display: inline-block;
+    margin: 10px 0;
+}
