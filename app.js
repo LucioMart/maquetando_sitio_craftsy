@@ -4,10 +4,17 @@ const port = 3030
 
 const app = express()
 
+/*  Routing  */
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'home.html'))
-})
+const mainRouter = require('./routes/main')
+const productsRouter = require('./routes/products')
+const usersRouter = require('./routes/users')
+
+app.use('/', mainRouter)
+
+// app.get('/', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'views', 'home.html'))
+// })
 
 app.get('/registro', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'registro.html'))
